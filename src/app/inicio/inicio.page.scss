@@ -1,0 +1,66 @@
+ion-icon {
+    color: #020d33;
+    font-size: 30px;
+}
+ion-button {
+    height: 50px;
+}
+ion-content {
+    --background: #ffffff;
+}
+
+.iniciar{
+    --background:url("../../assets/img/boton.png");
+    --color: #ffffff;
+    --color-hover: #ffffff;
+}
+.registro{
+    --background:#fff;
+    --color: #000;
+
+}
+ion-grid {
+    background: url(../../assets/img/FONDO_INICIO.jpg);
+    // background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+ion-list {
+    padding: 60% 10%;
+}
+
+div {
+    margin: 0 5px;
+    border-radius: 20px;
+    border: 3px solid #0f3956;
+}
+
+ion-input,
+ion-item {
+    --background: transparent;
+    background: transparent;
+}
+
+ion-input {
+    --color: #020d33;
+    --placeholder-color: #020d33;
+    --placeholder-opacity: 0.5;
+}
+
+ion-grid {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    font-size: 12px;
+}
+
+ion-button {
+    --border-radius: 30px;
+}
+
+ion-list {
+    background: #00000000;
+}

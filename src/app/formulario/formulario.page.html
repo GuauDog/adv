@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+
+<ion-content>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="8">
+        <header>
+          <h1>Informacion de contacto </h1>
+        </header>
+      </ion-col>
+    </ion-row>
+    <ion-list>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item lines="none">
+            <ion-input type="text" placeholder="Nombre"> </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item lines="none">
+            <ion-input type="text" placeholder="Correo Electronico"> </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item lines="none">
+            <ion-input type="number" placeholder="Telefono"> </ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item lines="none">
+            <ion-textarea style="height: 100px ;" type="text" placeholder="Detalle de consultoria"> </ion-textarea>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <br>
+      <ion-row>
+        <ion-col size="3">
+          
+        </ion-col>
+        <ion-col size="6">
+          <ion-button (click)="alerta()" expand="block"shape="round">
+            Enviar
+          </ion-button>
+        </ion-col>
+        <ion-col size="3">
+          
+        </ion-col>
+      </ion-row>
+    </ion-list>
+  </ion-grid>
+</ion-content>

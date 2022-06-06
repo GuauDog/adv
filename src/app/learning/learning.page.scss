@@ -1,0 +1,39 @@
+ion-grid {
+
+  background: url('../../assets/img/FONDO\ HOME.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
+
+ion-content {
+  --background: #ffffff;
+}
+
+
+h1 {
+
+  color: #fff;
+
+}
+
+.card {
+  margin: 0 20px 40px 20px;
+  border-radius: 20px;
+  box-shadow: -3px 7px 7px 3px #f0f0f0
+}
+
+header {
+  margin: 30% 30px;
+  padding: 10px;
+}
+
+img {
+  position: relative;
+  border-radius: 20px;
+
+}
+
+ion-list {
+  background: rgba(255, 255, 255, 0);
+}

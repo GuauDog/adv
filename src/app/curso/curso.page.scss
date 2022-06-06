@@ -1,0 +1,61 @@
+ion-icon {
+    color: #ffffff;
+    font-size: 30px;
+    margin-right: 10px
+}
+
+.text1,
+.text2 {
+    font-size: 18px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 3%;
+    box-shadow: -3px 7px 7px 3px #f0f0f0
+
+}
+
+.text1 {
+    color: #5a5a5a;
+}
+
+.text2 {
+    color: #939393;
+}
+
+h1 {
+
+    color: #fff;
+
+}
+
+ion-list {
+    background: #ffffff00;
+    padding: 5%;
+
+}
+
+ion-content {
+    --background: #ffffff;
+}
+
+ion-grid {
+
+    background: url('../../assets/img/FONDO\ HOME.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    margin: 100px 30px 10px 30px;
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
